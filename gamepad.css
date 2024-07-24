@@ -1,19 +1,19 @@
 /*BEGIN Fight Stick Controller Styling*/
-.controller.fight-stick {
+.controller.custom {
     background: url(stick-assets/base.svg) center no-repeat !important;
     height: 534px;
     width: 1122px;
 }
 
-.fight-stick.disconnected {
+.custom.disconnected {
     background: url(stick-assets/disconnected.svg) no-repeat;
 }
 
-.fight-stick.disconnected div {
+.custom.disconnected div {
     display: none;
 }
 
-.fight-stick .triggers {
+.custom .triggers {
     width: 326px;
     height: 198px;
     position: absolute;
@@ -21,7 +21,7 @@
     bottom: 66px;
 }
 
-.fight-stick .trigger-button {
+.custom .trigger-button {
     width: 123px;
     height: 123px;
     background: #333333;
@@ -30,23 +30,23 @@
     display: block;
 }
 
-.fight-stick .trigger-button.pressed {
+.custom .trigger-button.pressed {
     transform: translateY(5px);
     -webkit-filter: invert(1);
 }
 
-.fight-stick .trigger-button.left {
+.custom .trigger-button.left {
     position: absolute;
     float: right;
     bottom: 4px;
     right: 42px;
 }
 
-.fight-stick .trigger-button.right {
+.custom .trigger-button.right {
     float: left;
 }
 
-.fight-stick .bumpers {
+.custom .bumpers {
     width: 295px;
     height: 198px;
     position: absolute;
@@ -54,7 +54,7 @@
     top: 88px;
 }
 
-.fight-stick .bumper {
+.custom .bumper {
     width: 123px;
     height: 123px;
     background: #333333;
@@ -63,23 +63,23 @@
     display: block;
 }
 
-.fight-stick .bumper.pressed {
+.custom .bumper.pressed {
     transform: translateY(5px);
     -webkit-filter: invert(1);
 }
 
-.fight-stick .bumper.left {
+.custom .bumper.left {
     position: absolute;
     float: right;
     bottom: 4px;
     right: 11px;
 }
 
-.fight-stick .bumper.right {
+.custom .bumper.right {
     float: left;
 }
 
-.fight-stick .quadrant {
+.custom .quadrant {
     position: absolute;
     font-family: "Press Start 2P";
     font-size: 28px;
@@ -89,23 +89,23 @@
     color: white;
 }
 
-.fight-stick .p0:after {
+.custom .p0:after {
     content: "Player 1";
 }
 
-.fight-stick .p1:after {
+.custom .p1:after {
     content: "Player 2";
 }
 
-.fight-stick .p2:after {
+.custom .p2:after {
     content: "Player 3";
 }
 
-.fight-stick .p3:after {
+.custom .p3:after {
     content: "Player 4";
 }
 
-.fight-stick .arrows {
+.custom .arrows {
     position: absolute;
     width: 70px;
     height: 217px;
@@ -113,7 +113,7 @@
     left: 49px;
 }
 
-.fight-stick .back, .fight-stick .start {
+.custom .back, .custom .start {
     width: 70px;
     height: 70px;
     background: #333333;
@@ -121,22 +121,22 @@
     border-radius: 100%;
 }
 
-.fight-stick .back {
+.custom .back {
     float: left;
 }
 
-.fight-stick .start {
+.custom .start {
     position: absolute;
     bottom: 4px;
     left: -1px;
 }
 
-.fight-stick .back.pressed, .fight-stick .start.pressed {
+.custom .back.pressed, .custom .start.pressed {
     transform: translateY(5px);
     -webkit-filter: invert(1);
 }
 
-.fight-stick .abxy {
+.custom .abxy {
     position: absolute;
     width: 310px;
     height: 370px;
@@ -144,7 +144,7 @@
     left: 472px;
 }
 
-.fight-stick .button {
+.custom .button {
     width: 123px;
     height: 123px;
     background: #333333;
@@ -154,32 +154,32 @@
     position: absolute;
 }
 
-.fight-stick .button.pressed {
+.custom .button.pressed {
     transform: translateY(5px);
     -webkit-filter: invert(1);
 }
 
-.fight-stick .a {
+.custom .a {
     bottom: 0px;
     left: 0px;
 }
 
-.fight-stick .b {
+.custom .b {
     bottom: 66px;
     right: 31px;
 }
 
-.fight-stick .x {
+.custom .x {
     top: 66px;
     left: 33px
 }
 
-.fight-stick .y {
+.custom .y {
     right: 0px;
     top: 0px;
 }
 
-.fight-stick .fstick {
+.custom .fstick {
     position: absolute;
     width: 221px;
     height: 221px;
@@ -188,35 +188,35 @@
     background: url(stick-assets/stick.svg)
 }
 
-.fight-stick .fstick.up {
+.custom .fstick.up {
     background-position-x: -1762px;
 }
 
-.fight-stick .fstick.down {
+.custom .fstick.down {
     background-position-x: -882px;
 }
 
-.fight-stick .fstick.left {
+.custom .fstick.left {
     background-position-x: -1322px;
 }
 
-.fight-stick .fstick.right {
+.custom .fstick.right {
     background-position-x: -442px;
 }
 
-.fight-stick .fstick.up.right {
+.custom .fstick.up.right {
     background-position-x: -222px;
 }
 
-.fight-stick .fstick.up.left {
+.custom .fstick.up.left {
     background-position-x: -1542px;
 }
 
-.fight-stick .fstick.down.right {
+.custom .fstick.down.right {
     background-position-x: -662px;
 }
 
-.fight-stick .fstick.down.left {
+.custom .fstick.down.left {
     background-position-x: -1102px;
 }
 
